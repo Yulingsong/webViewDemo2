@@ -15,6 +15,10 @@
 		1808E2D01D050D730045876A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1808E2CE1D050D730045876A /* LaunchScreen.storyboard */; };
 		1808E2DB1D050D730045876A /* webViewDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2DA1D050D730045876A /* webViewDemo2Tests.m */; };
 		1808E2E61D050D730045876A /* webViewDemo2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2E51D050D730045876A /* webViewDemo2UITests.m */; };
+		1808E2F51D050DD60045876A /* UIButton+Button1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2F41D050DD60045876A /* UIButton+Button1.m */; };
+		1808E2F81D0510E70045876A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2F71D0510E70045876A /* SecondViewController.m */; };
+		1808E2FB1D052CC20045876A /* UITextField+UITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2FA1D052CC20045876A /* UITextField+UITextField.m */; };
+		1808E2FE1D052CE90045876A /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1808E2FD1D052CE90045876A /* Tools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		1808E2E11D050D730045876A /* webViewDemo2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webViewDemo2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1808E2E51D050D730045876A /* webViewDemo2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webViewDemo2UITests.m; sourceTree = "<group>"; };
 		1808E2E71D050D730045876A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1808E2F31D050DD60045876A /* UIButton+Button1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Button1.h"; sourceTree = "<group>"; };
+		1808E2F41D050DD60045876A /* UIButton+Button1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Button1.m"; sourceTree = "<group>"; };
+		1808E2F61D0510E70045876A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1808E2F71D0510E70045876A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1808E2F91D052CC20045876A /* UITextField+UITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+UITextField.h"; sourceTree = "<group>"; };
+		1808E2FA1D052CC20045876A /* UITextField+UITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+UITextField.m"; sourceTree = "<group>"; };
+		1808E2FC1D052CE90045876A /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		1808E2FD1D052CE90045876A /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				1808E2C41D050D720045876A /* AppDelegate.m */,
 				1808E2C61D050D720045876A /* ViewController.h */,
 				1808E2C71D050D720045876A /* ViewController.m */,
+				1808E2F61D0510E70045876A /* SecondViewController.h */,
+				1808E2F71D0510E70045876A /* SecondViewController.m */,
+				1808E2FC1D052CE90045876A /* Tools.h */,
+				1808E2FD1D052CE90045876A /* Tools.m */,
+				1808E2F31D050DD60045876A /* UIButton+Button1.h */,
+				1808E2F41D050DD60045876A /* UIButton+Button1.m */,
+				1808E2F91D052CC20045876A /* UITextField+UITextField.h */,
+				1808E2FA1D052CC20045876A /* UITextField+UITextField.m */,
 				1808E2C91D050D720045876A /* Main.storyboard */,
 				1808E2CC1D050D730045876A /* Assets.xcassets */,
 				1808E2CE1D050D730045876A /* LaunchScreen.storyboard */,
@@ -207,6 +227,7 @@
 				TargetAttributes = {
 					1808E2BC1D050D720045876A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 9LES7BYYC6;
 					};
 					1808E2D51D050D730045876A = {
 						CreatedOnToolsVersion = 7.1;
@@ -270,9 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1808E2FE1D052CE90045876A /* Tools.m in Sources */,
+				1808E2F81D0510E70045876A /* SecondViewController.m in Sources */,
+				1808E2FB1D052CC20045876A /* UITextField+UITextField.m in Sources */,
 				1808E2C81D050D720045876A /* ViewController.m in Sources */,
 				1808E2C51D050D720045876A /* AppDelegate.m in Sources */,
 				1808E2C21D050D720045876A /* main.m in Sources */,
+				1808E2F51D050DD60045876A /* UIButton+Button1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +436,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = webViewDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yulingsong.webViewDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -422,10 +451,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = webViewDemo2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yulingsong.webViewDemo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +529,7 @@
 				1808E2EC1D050D730045876A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1808E2ED1D050D730045876A /* Build configuration list for PBXNativeTarget "webViewDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +538,7 @@
 				1808E2EF1D050D730045876A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1808E2F01D050D730045876A /* Build configuration list for PBXNativeTarget "webViewDemo2UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +547,7 @@
 				1808E2F21D050D730045876A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

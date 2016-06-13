@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIButton+Button1.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"First Page";
+    
+    //创建按钮
+    UIButton *jumpBtn = [UIButton buttonWithTitle:@"泉四方" frame:CGRectMake(30, 100, 100, 30) color:[UIColor grayColor] tarfet:self selection:@selector(click)];
+    [self.view addSubview:jumpBtn];
+    
+}
+
+/** 按钮点击方法 */
+-(void)click
+{
+    SecondViewController *vc = [[SecondViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end
