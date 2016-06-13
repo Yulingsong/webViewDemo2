@@ -29,7 +29,7 @@
     
     webView.delegate = self;
     
-//    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://unionfin.eicp.net:48080/web-1.0/index.html"]];
+
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]];
     [webView setScalesPageToFit:YES];
     [webView loadRequest:request];
